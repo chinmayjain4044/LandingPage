@@ -1,0 +1,180 @@
+.signup-container {
+  position: relative;
+  height: 100vh;
+  background-image: url('./assets/vasily-koloda-8CqDvPuo_kI-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  filter: saturate(20%);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+
+.navbar .logo {
+  height: 50px;
+  margin-right: 10px; /* Add margin to separate the logo from the text */
+}
+
+.navbar span {
+  color: white;
+  font-size: 24px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.main-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding: 20px;
+  padding-top: 120px;
+  padding-bottom: 20px;
+  z-index: 2;
+  position: relative;
+}
+
+.image-upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 70px;
+  padding-left: 20px;
+}
+
+.image-upload-container input {
+  display: none;
+}
+
+.image-upload-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid white;
+  filter: saturate(350%);
+}
+
+.image-upload-container span {
+  margin-top: 10px;
+  margin-left: 10px;
+  color: white;
+}
+
+.signup-form {
+  width: 100%;
+  max-width: 700px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  color: white;
+  overflow-y: auto;
+  max-height: calc(100vh - 200px);
+}
+
+.signup-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.form-group:last-child {
+  margin-right: 0;
+}
+
+.form-group input {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background: transparent;
+  color: white;
+}
+
+.form-group input::placeholder {
+  color: white;
+}
+
+input[type="date"] {
+  color: white;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #28a745;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  filter: saturate(300%);
+}
+
+button:hover {
+  background: #218838;
+}
+
+.login-redirect {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.login-redirect a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}

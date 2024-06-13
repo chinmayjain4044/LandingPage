@@ -1,19 +1,17 @@
 {
   "files": {
     "main.css": "/LandingPage/static/css/main.7e9027f7.css",
-    "main.js": "/LandingPage/static/js/main.eba9515b.js",
-    "static/js/453.e3abb5f3.chunk.js": "/LandingPage/static/js/453.e3abb5f3.chunk.js",
+    "main.js": "/LandingPage/static/js/main.e3792ba0.js",
     "static/media/j.jpg": "/LandingPage/static/media/j.af2d8a7837adaeefeb54.jpg",
     "static/media/image.jpg": "/LandingPage/static/media/image.cdbb1ca28c5e7a70a34a.jpg",
     "static/media/vasily-koloda-8CqDvPuo_kI-unsplash.jpg": "/LandingPage/static/media/vasily-koloda-8CqDvPuo_kI-unsplash.868c8daed3d5b2d00ef1.jpg",
     "static/media/download-Photoroom (1).jpg": "/LandingPage/static/media/download-Photoroom (1).d116fe6af02e48d52188.jpg",
     "index.html": "/LandingPage/index.html",
     "main.7e9027f7.css.map": "/LandingPage/static/css/main.7e9027f7.css.map",
-    "main.eba9515b.js.map": "/LandingPage/static/js/main.eba9515b.js.map",
-    "453.e3abb5f3.chunk.js.map": "/LandingPage/static/js/453.e3abb5f3.chunk.js.map"
+    "main.e3792ba0.js.map": "/LandingPage/static/js/main.e3792ba0.js.map"
   },
   "entrypoints": [
     "static/css/main.7e9027f7.css",
-    "static/js/main.eba9515b.js"
+    "static/js/main.e3792ba0.js"
   ]
 }
